@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+<button onclick="givWindiw()">Узнать размер экрана</button>
+</body>
+<script>
+  function givWindiw() {
+  let width = document.documentElement.clientWidth;
+  let height = document.documentElement.clientHeight;
+  alert("Ширина " + width + ", Высота " + height);
+}
+</script>
+</html>
